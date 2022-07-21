@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>University of Michigan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Luckiest+Guy&family=Poppins:wght@600;700&family=Rubik+Mono+One&family=Sriracha&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section -->
+   <section class="sub-header">
+    <nav>
+        <a class="logo" href="./index.html">University Of Michigan</a>
+       <div class="nav-link" id="navLink">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./course.html">Course</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./course.html">Contact</a></li>
+        </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+     <h1>About Us</h1>
+   </section> 
+
+
+   <!-- about us content -->
+
+   <section class="about-us ">
+ 
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the World largest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Sint hic voluptates voluptatum ea quidem aut, eveniet 
+                 eos. Dignissimos facilis delectus eius veritatis nihil
+                 maxime eos architecto unde, nostrum, qui non ad sapiente
+                 aperiam hic repellat. Minus numquam perspiciatis quia, eum magnam,
+                 enim explicabo eos, soluta asperiores odio dolor fugiat reprehenderit?</p>
+                 <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="./Images/about.jpg" alt="">
+        </div>
+    </div>
+
+
+
+   </section>
+
+
+   <!-- ----------Footer ------- -->
+
+<section class="footer" >
+    <h4>About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+         <br> Alias quibusdam dolorem at dolor expedita non vel laboriosam iste amet fugit.</p>
+    <div class="icons">
+         <i class="fa fa-facebook"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-linkedin"></i>
+     </div>
+     <p>Made by Rejwan Sharif </p>
+        </section>
+
+
+
+   <!-- javascript element for toggle menu -->
+<script>
+   
+    var navLink = document.getElementById("navLink");
+ 
+    function  showMenu()
+    {
+     navLink.style.right = "0";
+    }
+    function  hideMenu()
+    {
+     navLink.style.right = "-145px";
+    }
+ 
+ </script>
+
+   </body>
+   </html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>University of Michigan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Luckiest+Guy&family=Poppins:wght@600;700&family=Rubik+Mono+One&family=Sriracha&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section -->
+   <section class="sub-header">
+    <nav>
+        <a class="logo" href="./index.html">University Of Michigan</a>
+       <div class="nav-link" id="navLink">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./course.html">Course</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+     <h1>Our Courses</h1>
+   </section> 
+
+<!-- courses section-->
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, unde.</p>
+ 
+    <div class="row">
+        <div class="corse-col">
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore iste 
+           nobis inventore debitis, illum a dignissimos praesentium quos dolore
+           tenetur aspernatur error beatae nesciunt exercitationem ipsa quasi ipsum? Aliquam, dolor.</p>
+    </div>
+
+    <div class="corse-col">
+        <h3>Under Graduation</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore iste 
+           nobis inventore debitis, illum a dignissimos praesentium quos dolore
+           tenetur aspernatur error beatae nesciunt exercitationem ipsa quasi ipsum? Aliquam, dolor.</p>
+    </div>
+
+    <div class="corse-col">
+        <h3>Post Graduation</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore iste 
+           nobis inventore debitis, illum a dignissimos praesentium quos dolore
+           tenetur aspernatur error beatae nesciunt exercitationem ipsa quasi ipsum? Aliquam, dolor.</p>
+    </div>
+    </div>
+
+</section>
+   
+<!-- Facilities ---->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ipsum.</p>
+
+<div class="row">
+    <div class="facilities-col">
+        <img src="./Images/library.png">
+        <h3>World Class Library</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe velit animi tempora!</p>
+    </div>
+
+    <div class="facilities-col">
+        <img src="./Images/basketball.png">
+        <h3>Largest Play Ground</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe velit animi tempora!</p>
+    </div>
+
+    <div class="facilities-col">
+        <img src="./Images/cafeteria.png">
+        <h3>Testy And Healthy Food</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe velit animi tempora!</p>
+    </div>
+</div>
+
+
+</section>
+
+
+   <!-- ----------Footer ------- -->
+
+<section class="footer" >
+    <h4>About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+         <br> Alias quibusdam dolorem at dolor expedita non vel laboriosam iste amet fugit.</p>
+    <div class="icons">
+         <i class="fa fa-facebook"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-linkedin"></i>
+     </div>
+     <p>Made by Rejwan Sharif </p>
+        </section>
+
+
+
+   <!-- javascript element for toggle menu -->
+<script>
+   
+    var navLink = document.getElementById("navLink");
+ 
+    function  showMenu()
+    {
+     navLink.style.right = "0";
+    }
+    function  hideMenu()
+    {
+     navLink.style.right = "-145px";
+    }
+ 
+ </script>
+
+   </body>
+   </html>
